@@ -1,0 +1,47 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="style.css">
+    <title>Simple Calculater</title>
+</head>
+<body>
+        <h1>Simple Calculater</h1>
+</body>
+<form name="form1" class="calci" action="SimpleCalculater.html" method="POST">
+    <input type="text" name="answer" id="display">
+
+    <br>
+</br>
+<input type="botton" class="btnDesign" value="AC" onclick="form1.value=''">
+<input type="botton" class="btnDesign" value="<" onclick="form1.answer.value+='<'">
+<input type="botton" class="btnDesign" value="00" onclick="form1.answer.value+='00'">
+<input type="botton" class="btnDesign" value="/" onclick="form1.answer.value+='/'">
+<br>
+</br>
+
+    <input type="botton" class="btnDesign" value="0" onclick="form1.answer.value+='0'">
+    <input type="botton" class="btnDesign" value="1" onclick="form1.answer.value+='1'">
+    <input type="botton" class="btnDesign" value="2" onclick="form1.answer.value+='2'">
+    <input type="botton" class="btnDesign" value="+" onclick="form1.answer.value+='+'">
+   
+</br><br>
+    <input type="botton" class="btnDesign" value="3" onclick="form1.answer.value+='3'">
+    <input type="botton" class="btnDesign" value="4" onclick="form1.answer.value+='4'">
+    <input type="botton" class="btnDesign" value="5" onclick="form1.answer.value+='5'">
+    <input type="botton" class="btnDesign" value="-" onclick="form1.answer.value+='-'">
+   
+    <br>
+</br>
+<input type="botton" class="btnDesign" value="6" onclick="form1.answer.value+='6'">
+    <input type="botton" class="btnDesign" value="7" onclick="form1.answer.value+='7'">
+    <input type="botton" class="btnDesign" value="8" onclick="form1.answer.value+='8'">
+    <input type="botton" class="btnDesign" value="*" onclick="form1.answer.value+='*'">
+            <br>
+</br>
+    <input type="botton" class="btnDesign" value="9" onclick="form1.answer.value+='9'">
+    <input type="botton" class="btnDesign" value="(" onclick="form1.answer.value+='('"> 
+    <input type="botton" class="btnDesign" value=")" onclick="form1.answer.value+=')'">    
+     <input type="botton" class="btnDesign" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+      
+
+</form>
+</html>
